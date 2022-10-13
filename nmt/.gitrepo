@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://gitlab.com/rycee/nmt.git
+	branch = master
+	commit = d83601002c99b78c89ea80e5e6ba21addcfe12ae
+	parent = 9727a52bdea700c95c68057d142f7f9379c6ebd8
+	method = merge
+	cmdver = 0.4.1

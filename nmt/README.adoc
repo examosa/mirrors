@@ -1,0 +1,6 @@
+= NMT
+:nix-darwin: https://github.com/LnL7/nix-darwin
+
+This is a basic test framework for projects using the Nixpkgs module
+system. It is inspired by the {nix-darwin}[nix-darwin test framework].
+

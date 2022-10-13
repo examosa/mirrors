@@ -1,0 +1,11 @@
+image: nixos/nix:latest
+
+variables:
+  # Pinned 2020-03-03.
+  NIX_PATH: "nixpkgs=https://github.com/NixOS/nixpkgs/archive/899cf4ba29271b629cd621a421922ed2cb7eefc2.tar.gz"
+
+Checks:
+  before_script:
+  - nix-env -f '<nixpkgs>' -iA nixfmt
+  script:
+  - find . -name '*.nix' -exec nixfmt -c {} +
