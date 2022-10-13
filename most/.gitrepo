@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git://git.jedsoft.org/git/most.git
+	branch = master
+	commit = 8fd49788d22ef3733b4a78e7c2f752c656695af8
+	parent = c88b4182468c753f9fb134a9478fbf099ea7ddef
+	method = merge
+	cmdver = 0.4.1
