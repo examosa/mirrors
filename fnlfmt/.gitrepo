@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://git.sr.ht/~technomancy/fnlfmt
+	branch = main
+	commit = b2e81ab0d9dfe1214b4ea80b9b6f67ce546d0805
+	parent = 7bfda9b31c3ea0e6ce924811f6e8300182e3f39b
+	method = merge
+	cmdver = 0.4.1
