@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://gitlab.com/rycee/nmd.git
 	branch = master
-	commit = 91dee681dd1c478d6040a00835d73c0f4a4c5c29
-	parent = 34996b5c9556ff751391882bb6f8d28e26f506cb
+	commit = b75d312b4f33bd3294cd8ae5c2ca8c6da2afc169
+	parent = 4e7454d3a57522778812eda8e0bb9be66baa3e7b
 	method = merge
 	cmdver = 0.4.1
