@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://gitlab.com/simple-nixos-mailserver/nixos-mailserver.git
+	branch = master
+	commit = 004c229ca44c069d93c92abf67ff1619fb508c6a
+	parent = 48fc60024c1db1a7c8bcd64ac92882d3ff468a69
+	method = merge
+	cmdver = 0.4.5
